@@ -1,0 +1,28 @@
+body{
+background-color:#eee; 
+
+}
+.titulo{
+	/*posição*/
+	position: absolute;
+	padding:5px 20px 5px 20px;
+	top: 50%;
+    left: 50%;
+    background-color: #ddd;
+    transform: translate(-50%, -50%);
+
+    /*tipos*/
+    line-height: 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color:#FF6060;
+    
+    transition:linear 1s;
+}
+
+.titulo:hover{
+	color: #CCCCCC;
+	cursor:pointer;
+	transition:linear 1s;
+}
